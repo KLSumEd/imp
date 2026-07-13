@@ -1,0 +1,17 @@
+/**
+ * @file The Archeotech Model Parser. Designed to parse the Archeotech (*.act) markup language.
+ * @author Kai Sumner-Edwards <kaisumed@gmail.com>
+ * @license GPL 2.0
+ */
+
+/// <reference types="tree-sitter-cli/dsl" />
+// @ts-check
+
+export default grammar({
+  name: "amp",
+
+  rules: {
+    // TODO: add the actual grammar rules
+    source_file: $ => "hello"
+  }
+});
